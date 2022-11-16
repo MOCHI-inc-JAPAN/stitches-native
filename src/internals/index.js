@@ -128,7 +128,7 @@ export function createStitches(config = {}) {
           return matchedMedias;
         }
 
-        return {};
+        return [];
       }, [windowWidth]);
 
       if (variants) {
